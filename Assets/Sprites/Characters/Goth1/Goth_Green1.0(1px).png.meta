@@ -1,0 +1,1368 @@
+fileFormatVersion: 2
+guid: 24e822b8c85d7408892e1f96732e6497
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5579254146955288547
+    second: Goth_Green1.0(1px)_0
+  - first:
+      213: 2088851566936140564
+    second: Goth_Green1.0(1px)_1
+  - first:
+      213: -7399996398398968725
+    second: Goth_Green1.0(1px)_2
+  - first:
+      213: -1030424198952229024
+    second: Goth_Green1.0(1px)_3
+  - first:
+      213: -3501676054516767686
+    second: Goth_Green1.0(1px)_4
+  - first:
+      213: 907901002555483363
+    second: Goth_Green1.0(1px)_5
+  - first:
+      213: 3438208073746776596
+    second: Goth_Green1.0(1px)_6
+  - first:
+      213: 8320996890903972182
+    second: Goth_Green1.0(1px)_7
+  - first:
+      213: -3480101424591151316
+    second: Goth_Green1.0(1px)_8
+  - first:
+      213: 7220451192581929411
+    second: Goth_Green1.0(1px)_9
+  - first:
+      213: -3480123194062551171
+    second: Goth_Green1.0(1px)_10
+  - first:
+      213: -1567581895466777860
+    second: Goth_Green1.0(1px)_11
+  - first:
+      213: -3959066835373963766
+    second: Goth_Green1.0(1px)_12
+  - first:
+      213: -3066701482137683071
+    second: Goth_Green1.0(1px)_13
+  - first:
+      213: -270179127038099764
+    second: Goth_Green1.0(1px)_14
+  - first:
+      213: -2935277995753070485
+    second: Goth_Green1.0(1px)_15
+  - first:
+      213: -945030651200277126
+    second: Goth_Green1.0(1px)_16
+  - first:
+      213: -911054925761912550
+    second: Goth_Green1.0(1px)_17
+  - first:
+      213: -8187332688619069780
+    second: Goth_Green1.0(1px)_18
+  - first:
+      213: -5701868035249476669
+    second: Goth_Green1.0(1px)_19
+  - first:
+      213: -3640638521425168042
+    second: Goth_Green1.0(1px)_20
+  - first:
+      213: -1300068245152083723
+    second: Goth_Green1.0(1px)_21
+  - first:
+      213: 6634451791330004194
+    second: Goth_Green1.0(1px)_22
+  - first:
+      213: 5577582635021703440
+    second: Goth_Green1.0(1px)_23
+  - first:
+      213: -253109370200193136
+    second: Goth_Green1.0(1px)_24
+  - first:
+      213: -3759960553554658228
+    second: Goth_Green1.0(1px)_25
+  - first:
+      213: -4913366010404454675
+    second: Goth_Green1.0(1px)_26
+  - first:
+      213: 4415314125959876023
+    second: Goth_Green1.0(1px)_27
+  - first:
+      213: -3336893743479006434
+    second: Goth_Green1.0(1px)_28
+  - first:
+      213: 178516130729776556
+    second: Goth_Green1.0(1px)_29
+  - first:
+      213: -7928764716496152326
+    second: Goth_Green1.0(1px)_30
+  - first:
+      213: -7444563514668017199
+    second: Goth_Green1.0(1px)_31
+  - first:
+      213: 7308223828397479718
+    second: Goth_Green1.0(1px)_32
+  - first:
+      213: -4805368934464495856
+    second: Goth_Green1.0(1px)_33
+  - first:
+      213: -1071558390905283098
+    second: Goth_Green1.0(1px)_34
+  - first:
+      213: 7999331078987215703
+    second: Goth_Green1.0(1px)_35
+  - first:
+      213: -5724759327320675481
+    second: Goth_Green1.0(1px)_36
+  - first:
+      213: -6911286408693083899
+    second: Goth_Green1.0(1px)_37
+  - first:
+      213: 672681272549183960
+    second: Goth_Green1.0(1px)_38
+  - first:
+      213: 3429527860173775006
+    second: Goth_Green1.0(1px)_39
+  - first:
+      213: -190334443436407868
+    second: Goth_Green1.0(1px)_40
+  - first:
+      213: 2410503915085548479
+    second: Goth_Green1.0(1px)_41
+  - first:
+      213: 502970459646221901
+    second: Goth_Green1.0(1px)_42
+  - first:
+      213: 4528642430640675770
+    second: Goth_Green1.0(1px)_43
+  - first:
+      213: 7016931432326312704
+    second: Goth_Green1.0(1px)_44
+  - first:
+      213: -1964965316376538653
+    second: Goth_Green1.0(1px)_45
+  - first:
+      213: 5428035895172076281
+    second: Goth_Green1.0(1px)_46
+  - first:
+      213: -2578076847213399505
+    second: Goth_Green1.0(1px)_47
+  - first:
+      213: 8856040435279424148
+    second: Goth_Green1.0(1px)_48
+  - first:
+      213: -4892428407606258105
+    second: Goth_Green1.0(1px)_49
+  - first:
+      213: -415641569379056619
+    second: Goth_Green1.0(1px)_50
+  - first:
+      213: 6143183942509129030
+    second: Goth_Green1.0(1px)_51
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 464
+        width: 24
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10ea1bd9e18292b0800000000000000
+      internalID: -5579254146955288547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 464
+        width: 12
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b2fb3de671dfc10800000000000000
+      internalID: 2088851566936140564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 464
+        width: 12
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c62468b7eed4990800000000000000
+      internalID: -7399996398398968725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_3
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 464
+        width: 12
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0676c7586a233b1f0800000000000000
+      internalID: -1030424198952229024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_4
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 464
+        width: 12
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34690c5e2c876fc0800000000000000
+      internalID: -3501676054516767686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_5
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 464
+        width: 24
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e46a8cc623899c00800000000000000
+      internalID: 907901002555483363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_6
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 464
+        width: 12
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4128e83d608f6bf20800000000000000
+      internalID: 3438208073746776596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_7
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 464
+        width: 12
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6590673f59e1a7370800000000000000
+      internalID: 8320996890903972182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_8
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 464
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fd9e4513234bfc0800000000000000
+      internalID: -3480101424591151316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_9
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 464
+        width: 27
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c934e3aa12343460800000000000000
+      internalID: 7220451192581929411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_10
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 464
+        width: 12
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77cd4bb46e14bfc0800000000000000
+      internalID: -3480123194062551171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_11
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 464
+        width: 12
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf28e5c4294de3ae0800000000000000
+      internalID: -1567581895466777860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_12
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 464
+        width: 12
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06418370b19e09c0800000000000000
+      internalID: -3959066835373963766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_13
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 464
+        width: 12
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18bf4050043e075d0800000000000000
+      internalID: -3066701482137683071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_14
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 464
+        width: 12
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce3b23f381204cf0800000000000000
+      internalID: -270179127038099764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_15
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 464
+        width: 18
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b602e12f63cc347d0800000000000000
+      internalID: -2935277995753070485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_16
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 464
+        width: 12
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75f95531a392e2f0800000000000000
+      internalID: -945030651200277126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_17
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 383
+        width: 32
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11671b3f584b53f0800000000000000
+      internalID: -911054925761912550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_18
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 383
+        width: 31
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae9aec4c40c06e80800000000000000
+      internalID: -8187332688619069780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_19
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 383
+        width: 31
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbecc25b35eed0b0800000000000000
+      internalID: -5701868035249476669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_20
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 383
+        width: 31
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65979debd8ad97dc0800000000000000
+      internalID: -3640638521425168042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_21
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 383
+        width: 31
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0d1ffa1da35fde0800000000000000
+      internalID: -1300068245152083723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_22
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 381
+        width: 33
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eccdadd0ce421c50800000000000000
+      internalID: 6634451791330004194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_23
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 301
+        width: 35
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0191bd1fadd876d40800000000000000
+      internalID: 5577582635021703440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_24
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 301
+        width: 32
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09705eb6e56cc7cf0800000000000000
+      internalID: -253109370200193136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_25
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 301
+        width: 27
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4cb4e33ccfe1dbc0800000000000000
+      internalID: -3759960553554658228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_26
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 301
+        width: 28
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee3d5a45a730dbb0800000000000000
+      internalID: -4913366010404454675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_27
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 301
+        width: 32
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd4a91edc8564d30800000000000000
+      internalID: 4415314125959876023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_28
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 301
+        width: 29
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1bd5b6e1d8f0b1d0800000000000000
+      internalID: -3336893743479006434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_29
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 301
+        width: 32
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca553de99773a7200800000000000000
+      internalID: 178516130729776556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_30
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 222
+        width: 32
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8989daf7e57f190800000000000000
+      internalID: -7928764716496152326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_31
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 222
+        width: 32
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d911682de89fa890800000000000000
+      internalID: -7444563514668017199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_32
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 222
+        width: 32
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6275daee9d60c6560800000000000000
+      internalID: 7308223828397479718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_33
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 222
+        width: 31
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fdb8ef966ef4db0800000000000000
+      internalID: -4805368934464495856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_34
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 221
+        width: 32
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed5002225f0121f0800000000000000
+      internalID: -1071558390905283098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_35
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 221
+        width: 32
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75376cbeb35530f60800000000000000
+      internalID: 7999331078987215703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_36
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 221
+        width: 32
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b627e09b19d80b0800000000000000
+      internalID: -5724759327320675481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_37
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 221
+        width: 32
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5011ddcf0ad2610a0800000000000000
+      internalID: -6911286408693083899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_38
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 140
+        width: 47
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d11a59ad08d55900800000000000000
+      internalID: 672681272549183960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_39
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 140
+        width: 45
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90a6fc1b61289f20800000000000000
+      internalID: 3429527860173775006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_40
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 140
+        width: 42
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3837605dbcb5df0800000000000000
+      internalID: -190334443436407868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_41
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 141
+        width: 39
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbcc541a84d37120800000000000000
+      internalID: 2410503915085548479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_42
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 141
+        width: 44
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e5abbd7f8eaf600800000000000000
+      internalID: 502970459646221901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_43
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 123
+        width: 41
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb59110c48f8de30800000000000000
+      internalID: 4528642430640675770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_44
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 68
+        width: 8
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003351dd5f5216160800000000000000
+      internalID: 7016931432326312704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_45
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 52
+        width: 50
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1d961a47a0bb4e0800000000000000
+      internalID: -1964965316376538653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_46
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 72
+        width: 11
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f21dcf33e1445b40800000000000000
+      internalID: 5428035895172076281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_47
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 52
+        width: 47
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22bf2644c4d83cd0800000000000000
+      internalID: -2578076847213399505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_48
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 52
+        width: 59
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a6355cad9f6ea70800000000000000
+      internalID: 8856040435279424148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_49
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 52
+        width: 50
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7465993d84a9a1cb0800000000000000
+      internalID: -4892428407606258105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_50
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 52
+        width: 43
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514864fd1385b3af0800000000000000
+      internalID: -415641569379056619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth_Green1.0(1px)_51
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 53
+        width: 46
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64de32b6f39f04550800000000000000
+      internalID: 6143183942509129030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
