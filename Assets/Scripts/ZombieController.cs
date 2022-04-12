@@ -4,17 +4,19 @@ using UnityEngine;
 
 public class ZombieController : MonoBehaviour
 {
-    public float speed;
     public float changeTime = 3.0f;
+    public float speed;
 
+    Animator animator;
     Rigidbody2D body;
+
     float timer;
     int direction = 1;
 
-    // Start is called before the first frame update
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
         timer = changeTime;
     }
 
@@ -26,6 +28,8 @@ public class ZombieController : MonoBehaviour
             direction = -direction;
             timer = changeTime;
         }
+
+        animator.SetFloat("LookHorizontal", direction);
     }
 
     void FixedUpdate()
@@ -33,5 +37,14 @@ public class ZombieController : MonoBehaviour
         Vector2 position = body.position;
         position.x += Time.deltaTime * speed * direction;
         body.MovePosition(position);
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        PlayerController player = collision.gameObject.GetComponent<PlayerController>();
+        if (player != null)
+        {
+            player.ChangeHealth(-2);
+        }
     }
 }
