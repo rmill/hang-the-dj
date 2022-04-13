@@ -10,6 +10,7 @@ public class ZombieController : MonoBehaviour
     Animator animator;
     Rigidbody2D body;
 
+    bool attacking;
     float timer;
     int direction = 1;
 
@@ -22,21 +23,27 @@ public class ZombieController : MonoBehaviour
 
     void Update()
     {
-        timer -= Time.deltaTime;
-        if (timer < 0)
+        if (!attacking)
         {
-            direction = -direction;
-            timer = changeTime;
-        }
+            timer -= Time.deltaTime;
+            if (timer < 0)
+            {
+                direction = -direction;
+                timer = changeTime;
+            }
 
-        animator.SetFloat("LookHorizontal", direction);
+            animator.SetFloat("LookHorizontal", direction);
+        }
     }
 
     void FixedUpdate()
     {
-        Vector2 position = body.position;
-        position.x += Time.deltaTime * speed * direction;
-        body.MovePosition(position);
+        if (!attacking)
+        {
+            Vector2 position = body.position;
+            position.x += Time.deltaTime * speed * direction;
+            body.MovePosition(position);
+        }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -44,7 +51,15 @@ public class ZombieController : MonoBehaviour
         PlayerController player = collision.gameObject.GetComponent<PlayerController>();
         if (player != null)
         {
+            animator.SetTrigger("Attacking");
+            attacking = true;
             player.ChangeHealth(-2);
         }
+    }
+
+    void FinishAttack()
+    {
+        animator.ResetTrigger("Attacking");
+        attacking = false;
     }
 }
