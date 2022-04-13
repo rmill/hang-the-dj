@@ -1207,9 +1207,9 @@ TextureImporter:
       name: Goth_Green1.0(1px)_45
       rect:
         serializedVersion: 2
-        x: 7
+        x: 5
         y: 52
-        width: 50
+        width: 52
         height: 61
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -1249,9 +1249,9 @@ TextureImporter:
       name: Goth_Green1.0(1px)_47
       rect:
         serializedVersion: 2
-        x: 69
+        x: 60
         y: 52
-        width: 47
+        width: 56
         height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
