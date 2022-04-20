@@ -13,7 +13,6 @@ public class HealthCollectible : MonoBehaviour
         {
             if (player.health < player.maxHealth)
             {
-                //Instantiate(healingEffect, gameObject.transform.position, gameObject.transform.rotation);
                 Instantiate(healingEffect, gameObject.transform.position, Quaternion.Euler(-90, 0, 0));
                 player.ChangeHealth(1);
                 Destroy(gameObject);
