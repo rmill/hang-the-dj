@@ -1899,6 +1899,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3715280800013875544, guid: 9c48b98820c4346d68f2706dcc597fa7, type: 3}
+      propertyPath: stopAction
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5633467034396123433, guid: 9c48b98820c4346d68f2706dcc597fa7, type: 3}
       propertyPath: m_Name
       value: HealthPack
@@ -1909,11 +1913,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5633467034396123435, guid: 9c48b98820c4346d68f2706dcc597fa7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.45
+      value: -2.48
       objectReference: {fileID: 0}
     - target: {fileID: 5633467034396123435, guid: 9c48b98820c4346d68f2706dcc597fa7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.85
+      value: -2.49
       objectReference: {fileID: 0}
     - target: {fileID: 5633467034396123435, guid: 9c48b98820c4346d68f2706dcc597fa7, type: 3}
       propertyPath: m_LocalPosition.z
