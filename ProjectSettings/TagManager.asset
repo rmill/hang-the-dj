@@ -11,7 +11,7 @@ TagManager:
   - Confiner
   - Water
   - UI
-  - 
+  - Effects
   - 
   - Background
   - 
@@ -46,4 +46,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 2619774931
+    locked: 0
+  - name: Effects
+    uniqueID: 2810610457
     locked: 0

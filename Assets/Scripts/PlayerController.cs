@@ -107,6 +107,6 @@ public class PlayerController : MonoBehaviour
         {
             // handle dealth
         }
-        Debug.Log("HEALTH: " + currentHealth + "/" + maxHealth);
+        UIHealthBar.instance.SetValue(currentHealth / (float)maxHealth);
     }
 }
