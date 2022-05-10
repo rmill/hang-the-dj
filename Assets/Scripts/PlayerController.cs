@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public GameObject cherryBombPrefab;
+
     public float hitDuration = 1.0f;
     public float speedX = 3.0f;
     public float speedY = 2.0f;
     public int maxHealth = 5;
+
     public int health { get { return currentHealth; }}
 
     Animator animator;
@@ -45,8 +48,8 @@ public class PlayerController : MonoBehaviour
                 animator.ResetTrigger("Hit");
             }
         } else
+        // Disable user input while player is hit
         {
-            // Disable user input while player is hit
             directionX = Input.GetAxisRaw("Horizontal");
             directionY = Input.GetAxisRaw("Vertical");
 
@@ -59,6 +62,11 @@ public class PlayerController : MonoBehaviour
 
             animator.SetFloat("LookHorizontal", lookDirection.x);
             animator.SetFloat("Speed", move.magnitude);
+
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                Launch();
+            }
         }
     }
 
@@ -96,7 +104,7 @@ public class PlayerController : MonoBehaviour
     {
         if (amount > 0)
         {
-            // handle healing animation
+            // XXX: handle healing animation
         } else
         {
             HitPlayer();
@@ -105,8 +113,18 @@ public class PlayerController : MonoBehaviour
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
         if (currentHealth <= 0)
         {
-            // handle dealth
+            // XXX: handle dealth
         }
         UIHealthBar.instance.SetValue(currentHealth / (float)maxHealth);
+    }
+
+    void Launch()
+    {
+        GameObject instance = Instantiate(cherryBombPrefab, body.position + Vector2.up * 0.7f, Quaternion.identity);
+        CherryBomb cherryBomb = instance.GetComponent<CherryBomb>();
+        cherryBomb.Launch(lookDirection, 300);
+
+        // XXX: create throwing animation and setup state machines
+        animator.SetTrigger("Throw");
     }
 }
