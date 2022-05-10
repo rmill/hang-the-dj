@@ -11,6 +11,7 @@ public class ZombieController : MonoBehaviour
     Rigidbody2D body;
 
     bool attacking;
+    bool infected = true;
     float timer;
     int direction = 1;
 
@@ -23,26 +24,32 @@ public class ZombieController : MonoBehaviour
 
     void Update()
     {
-        if (!attacking)
+        if (infected)
         {
-            timer -= Time.deltaTime;
-            if (timer < 0)
+            if (!attacking)
             {
-                direction = -direction;
-                timer = changeTime;
-            }
+                timer -= Time.deltaTime;
+                if (timer < 0)
+                {
+                    direction = -direction;
+                    timer = changeTime;
+                }
 
-            animator.SetFloat("LookHorizontal", direction);
+                animator.SetFloat("LookHorizontal", direction);
+            }
         }
     }
 
     void FixedUpdate()
     {
-        if (!attacking)
+        if (infected)
         {
-            Vector2 position = body.position;
-            position.x += Time.deltaTime * speed * direction;
-            body.MovePosition(position);
+            if (!attacking)
+            {
+                Vector2 position = body.position;
+                position.x += Time.deltaTime * speed * direction;
+                body.MovePosition(position);
+            }
         }
     }
 
@@ -57,9 +64,18 @@ public class ZombieController : MonoBehaviour
         }
     }
 
+    // The editor will say this method isn't in use, but it gets called
+    // by Animation Events in the Zombie Attack animations
     void FinishAttack()
     {
         animator.ResetTrigger("Attacking");
         attacking = false;
+    }
+
+    public void Purify()
+    {
+        infected = false;
+        body.simulated = false;
+        animator.SetTrigger("Purified");
     }
 }
