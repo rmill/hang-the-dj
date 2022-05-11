@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     public GameObject cherryBombPrefab;
 
     public float hitDuration = 1.0f;
+    public float shootCooldown = 1.0f;
     public float speedX = 3.0f;
     public float speedY = 2.0f;
     public int maxHealth = 5;
@@ -23,6 +24,7 @@ public class PlayerController : MonoBehaviour
     float directionX;
     float directionY;
     float hitTimer;
+    float shootTimer;
     int currentHealth;
 
     // Start is called before the first frame update
@@ -32,11 +34,16 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
 
         currentHealth = maxHealth;
+        shootTimer = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (shootTimer >= 0)
+        {
+            shootTimer -= Time.deltaTime;
+        }
 
         if (isHit)
         {
@@ -63,9 +70,21 @@ public class PlayerController : MonoBehaviour
             animator.SetFloat("LookHorizontal", lookDirection.x);
             animator.SetFloat("Speed", move.magnitude);
 
-            if (Input.GetKeyDown(KeyCode.Space))
+            Debug.Log("SHOOT TIMER: " + shootTimer);
+            if (shootTimer < 0)
             {
-                Launch();
+                if (Input.GetKeyDown(KeyCode.Space))
+                {
+                    Launch();
+                }
+            }
+            if (Input.GetKeyDown(KeyCode.B))
+            {
+                RaycastHit2D hit = Physics2D.Raycast(body.position + Vector2.up * 0.2f, lookDirection, 1.5f, LayerMask.GetMask("Interactables"));
+                if (hit.collider != null)
+                {
+                    Debug.Log("Raycast has hit the object " + hit.collider.gameObject);
+                }
             }
         }
     }
@@ -123,6 +142,8 @@ public class PlayerController : MonoBehaviour
         GameObject instance = Instantiate(cherryBombPrefab, body.position + Vector2.up * 0.7f, Quaternion.identity);
         CherryBomb cherryBomb = instance.GetComponent<CherryBomb>();
         cherryBomb.Launch(lookDirection, 300);
+
+        shootTimer = shootCooldown;
 
         // XXX: create throwing animation and setup state machines
         animator.SetTrigger("Throw");
