@@ -61,7 +61,7 @@ public class PlayerController : MonoBehaviour
             directionY = Input.GetAxisRaw("Vertical");
 
             Vector2 move = new Vector2(directionX, directionY);
-            if (!Mathf.Approximately(move.x, 0.0f))
+            if (!Mathf.Approximately(move.x, 0.0f) || !Mathf.Approximately(move.y, 0.0f))
             {
                 lookDirection.Set(move.x, move.y);
                 lookDirection.Normalize();
@@ -70,7 +70,6 @@ public class PlayerController : MonoBehaviour
             animator.SetFloat("LookHorizontal", lookDirection.x);
             animator.SetFloat("Speed", move.magnitude);
 
-            Debug.Log("SHOOT TIMER: " + shootTimer);
             if (shootTimer < 0)
             {
                 if (Input.GetKeyDown(KeyCode.Space))
@@ -80,10 +79,14 @@ public class PlayerController : MonoBehaviour
             }
             if (Input.GetKeyDown(KeyCode.B))
             {
-                RaycastHit2D hit = Physics2D.Raycast(body.position + Vector2.up * 0.2f, lookDirection, 1.5f, LayerMask.GetMask("Interactables"));
+                RaycastHit2D hit = Physics2D.Raycast(body.position + Vector2.up * 0.6f, lookDirection, 1.0f, LayerMask.GetMask("Interactables"));
                 if (hit.collider != null)
                 {
-                    Debug.Log("Raycast has hit the object " + hit.collider.gameObject);
+                    InteractableController interactable = hit.collider.GetComponent<InteractableController>();
+                    if (interactable != null)
+                    {
+                        interactable.DisplayDialog();
+                    }
                 }
             }
         }
