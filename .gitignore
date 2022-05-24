@@ -74,3 +74,6 @@ crashlytics-build.properties
 
 # Jetbrains IDE
 .idea/
+
+# Demo recording
+Recordings/
