@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Animator))]
 public class PlayerController : MonoBehaviour
 {
     public GameObject cherryBombPrefab;
@@ -137,7 +139,10 @@ public class PlayerController : MonoBehaviour
         {
             // XXX: handle dealth
         }
-        UIHealthBar.instance.SetValue(currentHealth / (float)maxHealth);
+        if (UIHealthBar.instance != null)
+        {
+            UIHealthBar.instance.SetValue(currentHealth / (float)maxHealth);
+        }
     }
 
     void Launch()
