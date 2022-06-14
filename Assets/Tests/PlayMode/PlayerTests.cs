@@ -8,7 +8,6 @@ public class PlayerTests
 {
     private GameObject testObject;
     private PlayerController player;
-    private int startingHealth;
 
     [SetUp]
     public void Setup()
