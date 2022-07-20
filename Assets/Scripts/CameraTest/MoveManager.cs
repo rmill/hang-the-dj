@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.InteropServices.ComTypes;
 using UnityEngine;
 
 public class MoveManager : MonoBehaviour
@@ -39,6 +41,8 @@ public class MoveManager : MonoBehaviour
 
 abstract public class FrameEvent
 {
+    protected GameObject _gameObject;
+    
     abstract public void process();
 }
 
@@ -119,19 +123,33 @@ public class FrameData
 
 public class CreateHitbox : FrameEvent
 {
-    protected List<(int, int)> _hitbox;
+    protected List<(int, int)> _hitboxCoords;
+    
+    protected PolygonCollider2D _hitbox;
+
+    protected Mesh _hitboxMesh;
 
     protected string _name;
 
     public CreateHitbox(string name, List<(int, int)> hitboxCoords)
     {
         _name = name;
-        _hitbox = hitboxCoords;
+        _hitboxCoords = hitboxCoords;
     }
     
     public override void process()
     {
         Debug.Log("CreateHitbox");
+        _hitbox = _gameObject.AddComponent<PolygonCollider2D>();
+        
+        // Create the points for the collider
+        List<Vector2> points = new List<Vector2>();
+        _hitboxCoords.ForEach(point => points.Add(new Vector2(point.Item1, point.Item2)));
+        _hitbox.points = points.ToArray();
+        
+        // Create a mesh so that we can see the hitbox
+        _hitboxMesh = _hitbox.CreateMesh(true, true);
+        _hitboxMesh.colors = Enumerable.Repeat(Color.red, _hitboxMesh.vertices.Length).ToArray();
     }
 }
 
