@@ -1,0 +1,4 @@
+5,create_hibox,A,"-1,-1","1,1","-1,1","1,-1"
+10,update_hitbox,A,"-2,-1","1,1","-1,1","1,-1"
+15,remove_hitbox,A,,,,
+20,end_move,,,,,
