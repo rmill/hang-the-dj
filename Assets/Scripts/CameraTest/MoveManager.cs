@@ -34,7 +34,8 @@ public class MoveManager : MonoBehaviour
 
     public void testMove()
     {
-        Move jab = new Jab();
+        GameObject player = GameObject.Find("Player");
+        Move jab = new Jab(player);
         attemptMove(jab);
     }
 }
@@ -54,6 +55,13 @@ abstract public class Move
     // The frame data object describing how the move works
     protected FrameData _frameData = new FrameData();
 
+    protected GameObject _gameObject;
+
+    public Move(GameObject gameObject)
+    {
+        _gameObject = gameObject;
+    }
+    
     public void Step()
     {
         if (isFinished()) return;
@@ -72,7 +80,7 @@ public class Jab : Move
     public Jab()
     {
         // CREATE HITBOX CLASS
-        object[] createHitbox1Params = {"hitbox1", new List<(int, int)> {(1,2), (-1, -1), (1, -1), (1, 1)}};
+        object[] createHitbox1Params = {_gameObject, "hitbox1", new List<(int, int)> {(1,2), (-1, -1), (1, -1), (1, 1)}};
         
         _frameData.addEvent("CreateHitbox", 5, createHitbox1Params);
         _frameData.addEvent("EndMove", 20);
@@ -131,9 +139,10 @@ public class CreateHitbox : FrameEvent
 
     protected string _name;
 
-    public CreateHitbox(string name, List<(int, int)> hitboxCoords)
+    public CreateHitbox(GameObject gameObject, string name, List<(int, int)> hitboxCoords)
     {
         _name = name;
+        _gameObject = gameObject;
         _hitboxCoords = hitboxCoords;
     }
     
